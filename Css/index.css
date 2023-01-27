@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(245, 240, 235);
     margin: 0px;
     text-align: center;
@@ -6,46 +6,55 @@ body{
     color: #40514E;
 
 }
-.top-container{
-    margin-top:0px;
+
+.mountain {
+    width: auto;
+}
+
+.top-container {
+    margin-top: 0px;
     position: relative;
-    padding-top:150px;
-    background-color:#BAF6F6;
+    padding-top: 150px;
+    background-color: #BAF6F6;
 
 }
-.middle-container{
+
+.middle-container {
     background-color: rgb(238, 227, 227);
 
 }
-.my{
+
+.my {
     padding-top: 50px;
 }
 
 
-.contact-me{
+.contact-me {
     width: 50%;
     margin: 50px auto 0px auto;
-  
+
 }
 
-h1{
+h1 {
     font-family: 'Tangerine', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
     /* line-height: 2; */
     margin: 20px;
 }
-.profile{
+
+.profile {
     width: 50%;
     margin: 0px auto 50px auto;
 }
-.bio{
+
+.bio {
     line-height: 2;
     width: 65%;
     margin: 10px auto;
 }
 
-.skill-row{
+.skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
@@ -55,68 +64,77 @@ h1{
 
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
     /* margin: 20px; */
-    
+
 
 }
 
-.sub{
+.sub {
     font-size: 1.7rem;
     margin: 0px;
 }
-h3{
+
+h3 {
     font-family: 'Montserrat', sans-serif;
 }
-h3{
+
+h3 {
     color: #11999E;
 }
-.skillrowimage{
+
+.skillrowimage {
     border-radius: 20%;
     width: 25%;
     float: left;
     margin-right: 30px;
 }
-.skill-rowimage{
+
+.skill-rowimage {
     width: 25%;
     float: right;
     margin-left: 30px;
     border-radius: 50%;
 }
-hr{
+
+hr {
     border: dotted grey 6px;
     margin: 100px auto 100px auto;
     width: 4%;
-    border-bottom:none;
+    border-bottom: none;
 
 }
-a{
+
+a {
     color: #035656;
     margin: 20px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(34, 84, 176);
 }
 
-.upper-cloud{
+.upper-cloud {
     position: absolute;
     right: 300px;
     top: 65px;
 
 }
-.bottom-cloud{
+
+.bottom-cloud {
     position: absolute;
     left: 350px;
     bottom: 250px;
-    
+
 
 }
-button{
+
+button {
     border-radius: 5px;
     background-color: cornflowerblue;
     font-size: larger;
@@ -124,37 +142,62 @@ button{
     padding: 5px;
     color: rgb(224, 226, 226);
 }
-button:hover{
+
+button:hover {
     background-color: dodgerblue;
 }
 
-.bottom-container{
+.bottom-container {
     margin: 0pxpx auto 0px auto;
     line-height: 3;
     padding: 30px;
     background-color: #66BFBF;
 }
-.copy-right{
+
+.copy-right {
     color: rgb(244, 244, 244);
     font-size: 0.75rem;
 }
-.upper-cloud1{
+
+.upper-cloud1 {
     position: absolute;
     left: 200px;
     top: 100px;
 
 
 }
-.upper-cloud2{
+
+.upper-cloud2 {
     position: absolute;
     right: 200px;
     bottom: 300px;
 }
-@media  (min-width: 900px){
-    .upper-cloud1 and .upper-cloud2{
+
+@media (min-width: 900px) {
+    .upper-cloud1 and .upper-cloud2 {
         display: none !important;
     }
-  
+
 }
 
+@media screen and (max-width: 600px) {
+    .mountain {
+        width: 370px;
+    }
 
+    .bottom-cloud {
+        position: absolute;
+        left: 230px;
+        bottom: 140px;
+
+    }
+
+    .my {
+        position: relative;
+        right: 30px;
+        box-shadow: 10px 10px 30px;
+        border-radius: 50%;
+        padding-top: 0px;
+        margin-top: 50px;
+    }
+}
