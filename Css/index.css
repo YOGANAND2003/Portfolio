@@ -180,21 +180,21 @@ button:hover {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .mountain {
-        width: 370px;
+        width: 350px;
     }
 
     .bottom-cloud {
         position: absolute;
-        left: 230px;
+        left: 200px;
         bottom: 140px;
 
     }
 
     .my {
         position: relative;
-        right: 30px;
+        right: 40px;
         box-shadow: 10px 10px 30px;
         border-radius: 50%;
         padding-top: 0px;
