@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(245, 240, 235);
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #40514E;
+
+}
+.top-container{
+    margin-top:0px;
+    position: relative;
+    padding-top:150px;
+    background-color:#BAF6F6;
+
+}
+.middle-container{
+    background-color: rgb(238, 227, 227);
+
+}
+.my{
+    padding-top: 50px;
+}
+
+
+.contact-me{
+    width: 50%;
+    margin: 50px auto 0px auto;
+  
+}
+
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* line-height: 2; */
+    margin: 20px;
+}
+.profile{
+    width: 50%;
+    margin: 0px auto 50px auto;
+}
+.bio{
+    line-height: 2;
+    width: 65%;
+    margin: 10px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    /* margin: 20px; */
+    
+
+}
+
+.sub{
+    font-size: 1.7rem;
+    margin: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #11999E;
+}
+.skillrowimage{
+    border-radius: 20%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-rowimage{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+hr{
+    border: dotted grey 6px;
+    margin: 100px auto 100px auto;
+    width: 4%;
+    border-bottom:none;
+
+}
+a{
+    color: #035656;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(34, 84, 176);
+}
+
+.upper-cloud{
+    position: absolute;
+    right: 300px;
+    top: 65px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 350px;
+    bottom: 250px;
+    
+
+}
+button{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: larger;
+    margin: 20px auto 50px auto;
+    padding: 5px;
+    color: rgb(224, 226, 226);
+}
+button:hover{
+    background-color: dodgerblue;
+}
+
+.bottom-container{
+    margin: 0pxpx auto 0px auto;
+    line-height: 3;
+    padding: 30px;
+    background-color: #66BFBF;
+}
+.copy-right{
+    color: rgb(244, 244, 244);
+    font-size: 0.75rem;
+}
+.upper-cloud1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+
+}
+.upper-cloud2{
+    position: absolute;
+    right: 200px;
+    bottom: 300px;
+}
+@media  (min-width: 900px){
+    .upper-cloud1 and .upper-cloud2{
+        display: none !important;
+    }
+  
+}
+
+
