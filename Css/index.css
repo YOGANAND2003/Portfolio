@@ -14,13 +14,21 @@ body {
 .top-container {
     margin-top: 0px;
     position: relative;
-    padding-top: 200px;
+    padding: 200px 0px 300px 0px;
     background-color: #BAF6F6;
+    background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149162009.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
 
 }
 
 .middle-container {
     background-color: rgb(238, 227, 227);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzD_LiZxub8N-1zXSkY6MAzODIdhdcGm8oA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -35,10 +43,11 @@ body {
 
 }
 
-h1 {
+h1,h2 {
     font-family: 'Tangerine', cursive;
     font-size: 5.625rem;
-    color: #66BFBF;
+    font-weight: 900;
+    color: #27a5a5;
     /* line-height: 2; */
     margin: 20px;
 }
@@ -51,7 +60,7 @@ h1 {
 .bio {
     line-height: 2;
     width: 65%;
-    margin: 10px auto;
+    margin: 10px auto ;
 }
 
 .skill-row {
@@ -67,7 +76,7 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #66BFBF;
+    color: #176363;
     font-weight: normal;
     /* margin: 20px; */
 
@@ -76,11 +85,11 @@ h2 {
 
 .sub {
     font-size: 1.7rem;
-    margin: 0px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 h3 {
@@ -106,6 +115,8 @@ hr {
     margin: 100px auto 100px auto;
     width: 4%;
     border-bottom: none;
+    background-color:#fff;
+
 
 }
 
@@ -148,10 +159,20 @@ button:hover {
 }
 
 .bottom-container {
-    margin: 0pxpx auto 0px auto;
+    margin: 0px auto 0px auto;
     line-height: 3;
     padding: 30px;
     background-color: #66BFBF;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7cJQbjehFCPfH9PXmu-9Nf5QoSpLpknMVpw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fa-brands{
+    margin: 0px 40px 0px 40px;
+}
+.icons{
+    margin: 0px;
+    height: 30px;
 }
 
 .copy-right {
@@ -172,6 +193,27 @@ button:hover {
     right: 200px;
     bottom: 300px;
 }
+.navmain{
+    padding: 0px;
+    margin: auto;
+    font-size: 1.2rem;
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;   
+    margin: 0px 0px 0px 80px;
+
+}
+.nav-link{
+    margin: 0px 20px 0px 20px;
+}
+
 
 @media (min-width: 900px) {
     .upper-cloud1 and .upper-cloud2 {
@@ -201,6 +243,8 @@ button:hover {
         margin-top: 50px;
     }
     .top-container{
-        padding-top: 200px;
+        padding: 250px 0px 350px 0px;
+        background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149162009.jpg);
+        background-size: cover;
     }
 }
